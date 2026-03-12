@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80">
+  <defs>
+    <linearGradient id="faceTopFull" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E85000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="faceLeftFull" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D2D2D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="faceRightFull" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3D3D3D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#555;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Cube icon -->
+  <polygon points="40,8 68,24 40,40 12,24" fill="url(#faceTopFull)"/>
+  <polygon points="12,24 40,40 40,64 12,48" fill="url(#faceLeftFull)"/>
+  <polygon points="68,24 40,40 40,64 68,48" fill="url(#faceRightFull)"/>
+  <polygon points="40,14 48,19 48,28 40,33 32,28 32,19" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.6"/>
+  <circle cx="40" cy="23" r="2.5" fill="#FFFFFF" fill-opacity="0.9"/>
+
+  <!-- Wordmark -->
+  <!-- IDR large -->
+  <text x="88" y="38" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="28" letter-spacing="4" fill="#1A1A1A">IDR</text>
+
+  <!-- Divider -->
+  <line x1="88" y1="46" x2="330" y2="46" stroke="#FF6B1A" stroke-width="1.5"/>
+
+  <!-- Full name -->
+  <text x="88" y="60" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="11" letter-spacing="2.5" fill="#444444">INSTITUTE OF DIGITAL RISK</text>
+</svg>

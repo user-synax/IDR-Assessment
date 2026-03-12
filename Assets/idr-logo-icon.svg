@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <linearGradient id="faceTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E85000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="faceLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D2D2D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="faceRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3D3D3D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#555;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Isometric cube -->
+  <!-- Top face (orange) -->
+  <polygon points="40,8 68,24 40,40 12,24" fill="url(#faceTop)"/>
+
+  <!-- Left face (dark) -->
+  <polygon points="12,24 40,40 40,64 12,48" fill="url(#faceLeft)"/>
+
+  <!-- Right face (mid-dark) -->
+  <polygon points="68,24 40,40 40,64 68,48" fill="url(#faceRight)"/>
+
+  <!-- Shield notch overlay on top face — risk symbolism -->
+  <polygon points="40,14 48,19 48,28 40,33 32,28 32,19" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- Center dot -->
+  <circle cx="40" cy="23" r="2.5" fill="#FFFFFF" fill-opacity="0.9"/>
+</svg>
